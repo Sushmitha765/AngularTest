@@ -1,0 +1,29 @@
+<div  class="mainClass">
+      <div *ngIf="showAlertMessage" class="toast toast-demo d-flex align-items-center  border-0 fade show align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-body">
+            {{alertMessage}}
+        </div>
+        <button type="button" class="btn-close btn-close-white ms-auto me-2" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    <div class="col-10">
+        <div class="title col-6">
+            <span>{{title}}</span>
+            <button class="btn btn-primary round-pill btnStyle"  (click)="displayNextPersonsDetails()" [disabled]="">NEXT PERSON</button>
+        </div>
+    </div>
+      <div *ngFor="let people of showPeopleList; let  i = index">
+                <div class="personClass">
+                                <div class="numberClass">
+                                   <span>{{i+1+indexValue}}</span></div>
+                                <div class="nameClass">
+                                    <span class="titleClass">Name: </span> <span>{{people.name}}</span>
+                                    <div class="locationClass">
+                                       <span class="titleClass">Location:</span> <span > {{people.location}}</span>
+                                    </div>
+                                </div>
+                 </div>
+         </div>
+       <div class="col">
+        <span class="footerClass col-11 mt-3">{{footerText}}</span>
+       </div>
+</div>

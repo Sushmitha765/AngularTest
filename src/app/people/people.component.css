@@ -1,0 +1,75 @@
+.mainClass{
+    background-color: #47AFE7;
+     width: auto; 
+     height: 100vh;
+     overflow-x:auto;
+}
+
+.btnStyle{
+    border-radius: 20px; 
+    margin-top: 18px;
+    margin-left: 150px;
+    background-color: #F49C63;
+}
+
+.titleClass{
+    margin-left: 10px; 
+    font-weight: 500;
+}
+
+.footerClass{
+    color: white; 
+    position: absolute; 
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+.title{
+    top: 75px;
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 360px;
+    font-weight: 400;
+}
+
+.personClass{
+    height: 75px;
+    margin-left: 360px;
+    margin-top: 15px;
+    width: 520px;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px  4px #3583AD;
+   
+}
+.numberClass{
+    height: 75px;
+    background-color: #6DCE8C;
+    width: 50px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding-top: 10px;
+    font-weight: bold;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.nameClass{
+    height: 40px;
+    width: 520px;
+    border-radius: 0px 10px 0px 0px;
+    background-color: #D2E6F9;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.locationClass{
+    position: relative;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+}
